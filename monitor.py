@@ -14,7 +14,8 @@ import discord
 from discord.ext import commands
 from PIL import Image, ImageDraw, ImageFont
 
-DISCORD_TOKEN = ""
+
+DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 CHECK_EVERY = 500
 
 HEADERS = {
